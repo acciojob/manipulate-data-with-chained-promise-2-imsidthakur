@@ -24,7 +24,7 @@ promise.then((res) =>{
   let str = "";
   for(let i = 0;i<res.length;i++)
   {
-    if(i != 0) str += ", "
+    if(i != 0) str += ","
     str+= res[i]*2;
   }
   setTimeout(function() {
