@@ -12,7 +12,7 @@ promise.then((res) =>{
   let str = "";
   for(let i = 0;i<filtered.length;i++)
   {
-    if(i != 0) str += ", "
+    if(i != 0) str += ","
     str+= filtered[i];
   }
   setTimeout(function() {
